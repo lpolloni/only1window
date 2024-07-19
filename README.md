@@ -17,7 +17,7 @@ The following script is a Bash script designed to continuously minimize all visi
 - Cron Job: You can schedule the script to run at regular intervals using cron. You can edit your crontab file (`crontab -e`) and add a line to specify when and how often the script should run.For example, to run the script every time the system starts, you can add the following line to your crontab:
 
 ```
-@reboot /usr/local/bin/windowmngt &
+@reboot /usr/local/bin/only1window.sh &
 ```
 
 -  Systemd Service: You can create a systemd service to manage the execution of your script. This method provides more control and flexibility over how the script is started and managed.
