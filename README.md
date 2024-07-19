@@ -1,5 +1,5 @@
 # only1window
-Continuous Window Minimizer: Bash Script for Tidying X11 Desktops
+Continuous Linux Window Minimizer: Bash Script for Tidying X11 Desktops
 
 The following script is a Bash script designed to continuously minimize all visible windows except the currently active one.
 
