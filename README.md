@@ -32,7 +32,7 @@ After=network.target
 
 [Service]
 Type=simple 
-ExecStart=/bin/bash /usr/local/bin/windowmngt
+ExecStart=/bin/bash /usr/local/bin/only1window.sh
 
 [Install]
 WantedBy=multi-user.target
