@@ -5,19 +5,6 @@ DEBUG_LOG="./debug.log"  # Path to the debug log file
 # Clear old logs
 echo > $DEBUG_LOG
 
-# Exit immediately if a command exits with a non-zero status
-#set -e
-
-# Define a function for cleanup tasks
-#cleanup() {
-#    echo "Error encountered. Performing cleanup..."
-#    # Add cleanup tasks here if needed
-#    exit 1
-#}
-
-# Trap errors and execute the cleanup function
-#trap 'cleanup' ERR
-
 while true; do
     # Get the window ID of the currently active window
     ACTIVE_WINDOW_ID=$(xdotool getactivewindow)
