@@ -36,7 +36,7 @@ ExecStart=/bin/bash /usr/local/bin/windowmngt
 WantedBy=multi-user.target
 ```
 
-- After creating the service file, you need to reload systemd (`sudo systemctl daemon-reload`), enable the service (`sudo systemctl enable only1window.servic`e), and start it (`sudo systemctl start only1window.service`).
+- After creating the service file, you need to reload systemd (`sudo systemctl daemon-reload`), enable the service (`sudo systemctl enable only1window.service`), and start it (`sudo systemctl start only1window.service`).
 
 Regardless of the method you choose, make sure your script has executable permissions (`chmod +x only1window.sh`) and specify the full path to your script in any configuration files or commands you use to run it automatically.
 
