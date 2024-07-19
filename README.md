@@ -2,6 +2,8 @@
 
 The following script is a Bash script designed to continuously minimize all visible windows except the currently active one.
 
+https://github.com/user-attachments/assets/a1bf249d-e818-47d0-9ac0-a216a082f729
+
 ### Could be beneficial for several reasons:
 
 - Improved Focus: By minimizing all windows except the active one, it helps users maintain focus on their current task without distractions from other open applications or windows.
